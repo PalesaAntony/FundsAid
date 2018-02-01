@@ -1,0 +1,115 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    margin-right: 15px
+}
+
+.active {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #d0021b;
+}
+
+.product-list {
+    color: #1b1b1c
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.button {
+    color: #0a0a09;
+    background: #f4d641;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    padding: 7px 0;
+    margin: 10px auto;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.button:hover:enabled {
+    background: linear-gradient(#1a1a1a, #0a0a0a);
+    color: #fff;
+    text-decoration: none;
+}
+
+.button:active {
+    transform: translateY(1px);
+}
+
+.header {
+    text-align: right;
+    font-size: 30px;
+    font-weight: 200;
+    float: left;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 1150px;
+    align-items: left;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.column input {
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    font-size: 16px;
+    width: 80%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-details {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.display {
+    background-color: #ffffff;
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.info {
+    background: #f2f2f2;
+    padding-bottom: 50px
+}
